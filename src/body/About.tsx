@@ -3,20 +3,20 @@ import logo from "../assets/images/kakaka.png";
 function About(): JSX.Element {
   return (
     <div
-      className="text-text ml-[150px] mr-[150px] py-[100px] 
+      className="text-text md:ml-[150px] mr-[150px] py-[100px] 
      font-sans leading-6"
     >
-      <div className="mx-[162px] m-auto flex mt-[10px] mb-[40px] w-[80%] text-[26px] relative">
+      <div className="sm:mx-[80px] md:mx-[162px] m-auto flex mt-[10px] mb-[40px] w-[80%] sm:text-[23px] md:text-[26px] relative">
         <p className="text-text font-thin ">01.</p>
         <p className="   font-sans font-[700] text-[#CCD6F6] ml-2  ">About Me</p>
-        <p className=" w-[300px] h-[0.2px] bg-[#999] absolute top-[51%] left-[19%]"></p>
+        <p className="sm:w-[430px] md:w-[300px] h-[0.2px] bg-[#999] absolute top-[51%] sm:left-[33%] md:left-[19%]"></p>
       </div>
 
-      <div className="flex ">
+      <div className="md:flex ">
         {/* left */}
-        <div className="w-[42%] text-[#999] ml-[200px]  ">
+        <div className="sm:w-[100%] md:w-[42%] text-[#999] sm:ml-[80px] md:ml-[200px]  ">
           <div className="mb-[15px]">
-            <p className="break-words  text-[14px]">
+            <p className="break-words sm:text-[16px] md:text-[14px]">
               Hello! My name is Naruhito and Full Stack developer.
             </p>
             <p className=" text-[16px]">
@@ -60,43 +60,43 @@ function About(): JSX.Element {
             <p>Qualifications and experience:</p>
           </div>
           <div>
-            <ul className="text-[12px] flex flex-wrap">
-              <li className="flex before:content-['▹'] before:text-text mb-[10px] w-[180px] inline-block mr-[0px]">
+            <ul className="sm:w-[70%] md:w-[100%] text-[12px] flex flex-wrap sm:pb-[50px] md:mb-0">
+              <li className="flex before:content-['▹'] before:text-text mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">JavaScript (ES6+)</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">TypeScript</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">React</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">Electron</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">Node.js</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">BlockChain</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">Vue.js</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">Angular</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">Next.js</p>
               </li>
-              <li className="flex before:content-['▹'] before:text-text  mb-[10px] w-[180px] inline-block mr-[0px]">
+              <li className="flex before:content-['▹'] before:text-text  mb-[10px] sm:w-[150px] md:w-[180px] inline-block mr-[0px]">
                 <p className="pl-[10px]">Figma</p>
               </li>
             </ul>
           </div>
         </div>
         {/* right */}
-        <div className="w-[40%] ml-[65px] ">
-          <div className="relative transition ease-in-out hover:absolute ">
+        <div className="w-[48%] sm:ml-[200px] md:ml-[90px] ">
+          <div className="relative transition ease-in-out hover:absolute  ">
             <div className="bg-[#15ebc0] w-[300px] h-[300px] opacity-100 hover:opacity-95 rounded  ">
               <img
                 src={logo}
@@ -105,7 +105,7 @@ function About(): JSX.Element {
                 data-main-image
               />
             </div>
-            <div className="w-[300px] h-[300px] border-2 border-teal-400 rounded top-[6%] left-[4%] absolute -z-50 hover:absolute hover:top-[2%] hover:left-[2%] hover:origin-top-left"></div>
+            <div className="w-[300px] h-[300px] border-2 border-teal-400 rounded sm:top-[10%] sm:left-[14%] md:top-[6%] md:left-[4%] absolute -z-50 hover:absolute hover:top-[2%] hover:left-[2%] hover:origin-top-left"></div>
           </div>
         </div>
       </div>

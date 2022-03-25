@@ -3,17 +3,11 @@
 @tailwind utilities;
 
 .tab-title {
-    @apply w-[110px] inline  pb-[12px] pt-[12px] pl-[16px] text-[13px] text-[#999] hover:text-text transition duration-500 ease-linear ;
+    @apply sm:w-[180px] sm:text-center md:w-[110px] inline  pb-[12px] pt-[12px] pl-[16px] text-[13px] text-[#999] hover:text-text transition duration-500 ease-linear ;
 }
 .active {
-    @apply  border-l-2 border-text bg-[#112240] text-text ;
+    @apply sm:border-b-2 md:border-b-0  md:border-l-2 border-text bg-[#112240] text-text ;
 }
 .card-color{
     @apply text-[19px] text-[#ccd6f6] font-semibold pb-3;
 }
-/* .sub_hidden {
-    @apply transition-all ease-linear duration-200 hover:translate-y-[-10px] shadow-xl hover:card-color hover:text-text hidden;
-}
-.sub_block {
-    @apply transition-all ease-linear duration-200 hover:translate-y-[-10px] shadow-xl hover:card-color hover:text-text ;
-} */

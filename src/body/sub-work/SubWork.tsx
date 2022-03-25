@@ -29,30 +29,30 @@ function SubWork(){
               </a>
             </div>
             {/* context */}
-            <div className="w-[500px] z-20 flex-wrap col-span-5 flex absolute right-[-2%] top-[-5%]">
-              <p className="block text-right w-[100%] text-[13px] py-[10px]">
+            <div className="sm:bg-[#112240] md:bg-inherit sm:opacity-80 md:opacity-100 sm:w-[585px] sm:h-[325px] sm:pl-[50px] sm:right-[-20%] sm:top-[-1%] md:w-[500px] z-20 flex-wrap col-span-5 flex absolute md:right-[-2%] md:top-[-5%] ">
+              <p className="block md:text-right w-[100%] text-[13px] py-[10px]">
                 Featured Project
               </p>
-              <h3 className="block text-right w-[100%] text-[28px] font-semibold text-[#CCD6F6] pb-[20px]">
+              <h3 className="block md:text-right w-[100%] text-[28px] font-semibold text-[#CCD6F6] pb-[20px]">
                 <a href="https://www.chowbus.com/">Chowbus</a>
               </h3>
-              <div className="p-[25px] bg-[#112240] w-[100%]">
-                <p className="text-[15px] flex flex-wrap text-[#999] w-[100%] text-right">
+              <div className="md:p-[25px] md:bg-[#112240] w-[100%]">
+                <p className="sm:text-[13px] md:text-[15px] flex flex-wrap text-[#999] w-[100%] md:text-right">
                   This project was developed with Next.js. Chowbus is a food
                   delivery platform providing high-quality authentic Asian food,
                   empowering local independent restaurants and stores through
                   the technology.
                 </p>
               </div>
-              <ul className="flex justify-end w-[100%] text-right text-[13px] text-[#999]">
-                <li className="ml-[20px] mb-[15px] mt-[25px]  leading-4  text-righ inline">
+              <ul className="flex justify-start w-[100%] text-right text-[13px] text-[#999]">
+                <li className="ml-[20px] mb-[15px] mt-[25px]  leading-4 sm:text-left text-righ inline">
                   Next.js
                 </li>
-                <li className="ml-[20px] mb-[15px] mt-[25px]  leading-4  text-right inline ">
+                <li className="ml-[20px] mb-[15px] mt-[25px]  leading-4 sm:text-left text-right inline ">
                   React.js
                 </li>
               </ul>
-              <div className="w-[100%] text-right flex justify-end text-[#CCD6F6] ">
+              <div className="w-[100%] text-right flex justify-start text-[#CCD6F6] ">
                 <a
                   href="https://www.chowbus.com/"
                   aria-label="External Link"

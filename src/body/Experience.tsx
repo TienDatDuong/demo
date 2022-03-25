@@ -9,10 +9,10 @@ function Experience() {
 
   return (
     <div
-      className="text-text ml-[150px] mr-[150px] py-[100px] 
-         font-sans leading-6"
+      className="text-text md:ml-[150px] md:mr-[150px] py-[100px] 
+      font-sans leading-6"
     >
-      <div className="mx-[265px] m-auto">
+      <div className="sm:mx-[80px] md:mx-[162px] m-auto">
         <div className=" flex mt-[10px] mb-[40px] w-[80%] whitespace-nowrap text-[26px] relative">
           <p className="text-text font-thin ">02.</p>
           <p className=" ml-0  font-sans font-[700] text-[#CCD6F6] ml-2  ">
@@ -21,11 +21,11 @@ function Experience() {
           <p className=" w-[300px] h-[0.2px] bg-[#999] absolute fixed top-[51%] left-[46%] bottom-[10%]"></p>
         </div>
 
-        <div className="flex relative">
+        <div className="flex relative sm:flex-col md:flex-row">
           {/* tittle */}
-          <div className="mt-[-12px] mr-[20px] ">
-            <div className="flex flex-col">
-              <div className={toggle === 1 ? "tab-title active" : "tab-title"} onClick={()=> handleFreelancer(1)} >
+          <div className="mt-[-12px] md:mr-[20px] sm:pb-[20px] ">
+            <div className="flex md:flex-col">
+              <div className={toggle === 1 ? "tab-title active " : "tab-title"} onClick={()=> handleFreelancer(1)} >
                 Freelancer
               </div>
               <div className={toggle === 2 ? "tab-title active" : "tab-title"} onClick={()=> handleFreelancer(2)}>
